@@ -8,13 +8,13 @@ sidebar_label: Setting-up a Zoned Storage Compatible Linux System
 
 The zoned block device (ZBD) interface that supports [SCSI ZBC and ATA ZAC
 disks](../introduction/smr.md) was added to the Linux&reg; kernel in version
-4.10. [NVMe zoned namespace (ZNS)](../introduction/zns.md) devices are supported
-started with kernel version 5.9. All Linux kernel versions higher than 5.9 can
-support all zoned storage devices.
+4.10. [NVMe zoned namespace (ZNS)](../introduction/zns.md) devices are
+supported from kernel version 5.9 (inclusive). All Linux kernel versions higher
+than 5.9 can support all zoned storage devices.
 
 :::note
 Linux kernels prior to version 4.10 do not implement the zoned block device
-interface.  If you use a kernel older than kernel 4.10, you can access and
+interface. If you use a kernel older than kernel 4.10, you can access and
 manage SCSI ZBC and ATA ZAC disks, but only in a limited way. This is discussed
 in more detail in the [Linux Support](../linux/overview.md) document.
 :::

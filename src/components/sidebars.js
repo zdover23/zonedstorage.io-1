@@ -35,12 +35,15 @@ const sidebars = {
       label: 'Getting Started',
       collapsed: true,
       items: [
-        'getting-started/index',
-        'getting-started/prerequisites',
-	'getting-started/nullblk',
+        {
+          type: 'link',
+          label: 'Overview',
+          href: '/docs/getting-started',
+        },
+        'getting-started/linux',
+	'getting-started/zbd-emulation',
 	'getting-started/smr-disk',
-	'getting-started/smr-emulation',
-	'getting-started/zns-emulation'
+	'getting-started/zns-device'
       ],
     },
     {

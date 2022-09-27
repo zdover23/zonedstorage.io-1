@@ -68,10 +68,10 @@ workloads.
 ## SMR Interface Implementations
 
 The command interface of SMR disks can take different forms. These forms are
-referred to as "models", and their differences impacts hosts and 
-users. It is important to understand these differences, as not all
-implementation options are appropriate for a particular storage application.
-The three models that are in use today are:
+referred to as "models", and their differences impact hosts and users. It is
+important to understand these differences, as not all implementation options
+are appropriate for a particular storage application.  The three models that
+are in use today are:
 
 * **Host Managed** This model accommodates only sequential write workloads to
   deliver both predictable performance and control at the host level.
